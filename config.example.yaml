@@ -1,0 +1,90 @@
+# fridge-door configuration
+#
+# Copy to config.yaml (git ignores it) and fill in your own values.
+# config.yaml names your children and their schools: never commit it to a public repository.
+
+family:
+  timezone: UTC                   # your own, for example Europe/Berlin or America/New_York
+  report_language: English        # language of the weekly report for parents
+  message_language: English       # language of messages to the children
+  parents: [Parent A, Parent B]
+
+children:
+  - id: older
+    name: Maya                    # the name or nickname they like to be called
+    school: Example Secondary School
+    year: Year 9                  # your country's grade name
+    quiz_language: English
+    targets:
+      study_minutes: 60
+      reading_minutes: 25
+      short_day: { study_minutes: 30, reading_minutes: 15 }
+    short_days:                   # clubs and activities
+      monday: Swimming
+      wednesday: Coding club
+    subjects: [Maths, English, Science, History, French, Computing, Music]
+    quiz:
+      minutes: 15
+      questions: 15-20
+      question_prefix: M          # M1, M2 ... so a photo of any page shows whose answers it is
+
+  - id: younger
+    name: Leo
+    school: Example Primary School
+    year: Year 4
+    quiz_language: English
+    targets:
+      study_minutes: 30           # includes maths practice
+      reading_minutes: 20
+      short_day: { study_minutes: 20, reading_minutes: 15 }
+    short_days:
+      tuesday: Choir
+      thursday: Chess club
+    subjects: [Maths, Reading, Spelling and grammar]
+    quiz:
+      minutes: 10
+      questions: 8-10
+      question_prefix: L
+
+stuck_on_list:
+  send_to: parents             # they pass questions on to whoever helps
+
+points:
+  per_day: { check_in: 1, study_block: 2, reading: 1 }
+  weekly_bonus: 3                 # all homework due this week on time and complete
+  reward_threshold: 16            # 16 or more: the reward the child chose this week
+  # Below the threshold there is no punishment: free time starts once the gaps are filled.
+
+reminders:                        # times in family.timezone
+  study_time: { older: "18:00", younger: "16:15", days: weekdays }
+  check_in: { time: "20:00", days: everyday }
+  missing_check_in: { time: "21:00", to: parents }
+  weekly_plan: { time: "08:00", day: monday }
+  weekly_report: { time: "10:00", day: sunday, to: parents }
+  quiz_time: { time: "17:00", day: sunday }
+
+messaging:
+  app: telegram                   # telegram | discord | whatsapp_business
+  parents_chat: "<chat id>"
+  children:
+    older: "<chat id>"
+    younger: "<chat id>"
+  # Bot tokens go in .env, never here.
+
+sources:
+  check_in: notion                # notion | airtable | sheet
+  email:
+    provider: gmail
+    access: read-only
+    school_senders:               # who school email comes from
+      - "@secondary.example.org"
+      - "@primary.example.org"
+  parent_portals:                 # checked in the parent view you already have, see docs/design.md
+    - name: Homework platform
+      check: by_hand              # by_hand | browser_agent, only where the terms allow it
+  calendar:
+    provider: google
+    calendar_name: School
+
+storage:
+  reports_dir: ~/FamilyDocs/fridge-door/reports   # outside git
