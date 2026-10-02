@@ -1,8 +1,8 @@
-# fridge-door
+# Fridge Door
 
-![fridge-door: your kids' whole school life, without the nagging](docs/images/banner.png)
+![Fridge Door: an agentic workflow for busy parents. Your kids' whole school life, without the nagging.](docs/images/banner.png)
 
-For busy parents struggling to keep up with their kids' school life: homework, learning, updates and events.
+An agentic workflow for busy parents struggling to keep up with their kids' school life: homework, learning, updates and events.
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-827dbd?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/mutlumehmet)
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-support-d97757?logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/mutlumehmet)
@@ -16,7 +16,7 @@ Life is full, for parents and kids alike. School sends a steady stream of emails
 
 The usual fix is a tracking sheet. It works for as long as a parent keeps reminding the kids to fill it in. The day the reminders stop, the sheet stops too, and the parent has become the family's nag.
 
-fridge-door moves that job to a system. The kids get short, friendly reminders from the system, not from you. A short weekly quiz checks what "I did it" really means. The parents read one report on Sunday and set the goal for the week ahead.
+Fridge Door moves that job to a system. The kids get short, friendly reminders from the system, not from you. A short weekly quiz checks what "I did it" really means. The parents read one report on Sunday and set the goal for the week ahead.
 
 ## What it keeps track of
 

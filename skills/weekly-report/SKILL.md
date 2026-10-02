@@ -1,11 +1,11 @@
 ---
 name: weekly-report
-description: Prepares the Sunday weekly school report for parents and each child's Sunday quiz with its answer key, from the family's daily check-ins, homework records, school emails and school updates, and marks a quiz from a photo of the answer sheet. Part of fridge-door. Use whenever the parents ask for the weekly report, the Sunday quiz, or to mark a quiz. Triggers on "weekly report", "sunday report", "prepare the quiz", "make the quiz", "mark the quiz", "score this quiz", "how did the kids do this week".
+description: Prepares the Sunday weekly school report for parents and each child's Sunday quiz with its answer key, from the family's daily check-ins, homework records, school emails and school updates, and marks a quiz from a photo of the answer sheet. Part of Fridge Door, an agentic workflow for busy parents. Use whenever the parents ask for the weekly report, the Sunday quiz, or to mark a quiz. Triggers on "weekly report", "sunday report", "prepare the quiz", "make the quiz", "mark the quiz", "score this quiz", "how did the kids do this week".
 ---
 
 # Weekly report and Sunday quiz
 
-Reads `config.yaml` (copied from `config.example.yaml`) for the children, targets, points, sources and storage folder. The design behind every step is in `docs/design.md` of the fridge-door repository.
+Reads `config.yaml` (copied from `config.example.yaml`) for the children, targets, points, sources and storage folder. The design behind every step is in `docs/design.md` of the Fridge Door repository.
 
 Two modes:
 

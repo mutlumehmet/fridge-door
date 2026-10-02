@@ -1,6 +1,6 @@
 # Privacy
 
-fridge-door handles data about children: their school, their marks, what they find hard, and notes that only parents should see. Treat it the way you would treat their medical records. This page is the checklist to set it up that way.
+Fridge Door handles data about children: their school, their marks, what they find hard, and notes that only parents should see. Treat it the way you would treat their medical records. This page is the checklist to set it up that way.
 
 ## Where data lives
 

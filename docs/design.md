@@ -1,6 +1,6 @@
 # Design
 
-How fridge-door works, piece by piece. Every number here (minutes, points, times) is a starting value. Tune them to your family after the first two weeks of real data.
+How Fridge Door works, piece by piece. Every number here (minutes, points, times) is a starting value. Tune them to your family after the first two weeks of real data.
 
 The examples use two children: an **older child** at secondary school and a **younger child** at primary school. Adapt the parts to your own kids' ages.
 
