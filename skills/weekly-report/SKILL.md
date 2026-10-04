@@ -33,6 +33,8 @@ The week is Monday to Sunday ending on the report's Sunday, in `family.timezone`
 1. **Daily check-ins** for each child. Use the `Date` field, or the submission time when it is empty. If a day has several entries, the last one counts, and the report notes it. A check-in counts for points once a day.
    - An empty "understood" field means unknown, never 3.
    - A ticked subject means "logged", not "taught at school": children also tick subjects they studied at home.
+   - The optional fields (mood, what happened in my book, who I spent time with, something I want from my parents) are never scored. An empty one means nothing.
+   - If "what happened in my book" repeats the same sentence for days, or the pages do not move, list it under mismatches.
 2. **Homework and tests:** everything due this week and in the next 7 days.
 3. **School email** from the last 8 days, from the senders in `sources.email.school_senders`, read-only. Look for: homework platform summaries, awards, absences, incidents, forms, trips, payments, newsletters. Some school systems keep the full text only in the HTML part of the email. Newsletters are often a link or a PDF.
 4. **Parent portals,** only as configured in `sources.parent_portals`:
@@ -85,9 +87,17 @@ Files, in `storage.reports_dir`:
 4. **Homework:** due this week, status, scores, anything late. Leave out items that are not really homework (club sign-ups, surveys).
 5. **Topics:** what was logged, self ratings, waiting for review.
 6. **Mismatches.**
-7. **From school:** updates that concern each child, newest and still to do first.
-8. **Next week:** tests, deadlines, events, forms, payments.
-9. **Data notes:** which sources you could check and which you could not.
+7. **In their own words:** what each child told the parents through the check-in, so that a request or a complaint gets an answer that week. Per child:
+   - Requests from "something I want from my parents", with the date, in the child's own words.
+   - Complaints and problems written in any field (about the form, an app that does not work, school, friends). Children often write these in the wrong field, so read all of them.
+   - Questions that were clearly misunderstood: the answer does not fit the question. The form may need a clearer question.
+   - The week's moods in one line, for example "😄 2, 🙂 2, 😕 1 (Thursday)". Two or more low days go into the summary too.
+   - If there is nothing: "No requests or complaints this week."
+8. **From school:** updates that concern each child, newest and still to do first.
+9. **Next week:** tests, deadlines, events, forms, payments.
+10. **Data notes:** which sources you could check and which you could not.
+
+If a child asked for something or complained, add it to the summary as one bullet: many parents only read the summary.
 
 Keep it short. Someone will read it on a phone.
 

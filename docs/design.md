@@ -44,6 +44,15 @@ Younger child:
 - School homework done (yes or no)
 - The thing I learned most today (one sentence)
 
+Both children, optional and not scored:
+
+- How I felt today (five options, from 😄 to 😢)
+- What happened in my book today (one sentence)
+- Who I spent time with today
+- Something I want from my parents (help, a question, a request)
+
+These keep the check-in from feeling like a test, and give the child a direct line to the parents. A request or a low mood reaches the parents the same evening.
+
 If the form tool supports conditional questions, ask only about the lessons on today's timetable. If it does not, list all subjects and let the child fill in the ones they had.
 
 ### 2. Daily targets
@@ -92,7 +101,7 @@ The parents and the children set the reward list together. The report only says 
 |---|---|---|
 | Weekdays, after school | Each child | Today's tasks: today's lessons and upcoming deadlines |
 | Every evening | Each child | Check-in reminder with the form link |
-| Every evening, later | Parents | Who has not filled in the check-in yet |
+| Every evening, later | Parents | Who has not filled in the check-in yet, and a short note if a child asked for something, picked a low mood or complained about something |
 | Monday morning | Each child | The week's plan: targets per day, short days, quiz time |
 | Sunday morning | Parents | Weekly report, quiz sheets, answer keys |
 | Sunday evening | Each child | Quiz time |
@@ -116,6 +125,7 @@ Every Sunday, one page per child:
 - Total study and reading minutes, pages read
 - Homework status: what the child logged, checked against the school's own data where you have it
 - Topics: covered, self ratings, quiz results, waiting for review
+- In their own words: requests, complaints and low days from the check-ins
 - From school: updates that concern this child
 - Next week: events, deadlines, forms and payments
 - Things to watch, and a suggested goal for the week
@@ -148,6 +158,7 @@ Most school systems send their updates by email, so the inbox is the richest inp
 
 - Some school messaging systems put the full text only in the HTML part of the email, and a placeholder in the plain text part. Read the HTML.
 - Newsletters often arrive as a link or a PDF attachment, not as text in the email.
+- School portals often ship parent accounts with email notifications switched off. At setup, open the notification settings of every parent account and turn on new homework, missed homework, grades and notices. Otherwise the homework never reaches the inbox.
 
 ### Parent portals
 

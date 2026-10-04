@@ -80,7 +80,20 @@ Make it fun. A theme from a show or a game your kids love works far better than 
 No check-in yet today: {names}. A gentle reminder might help 🙂
 ```
 
-## 6. Weekly report (parents' group, Sunday morning)
+## 6. Note from the children (parents' group, same time as 5)
+
+Sent only when today's check-in has a request for the parents, a low mood, or a complaint or problem in any text field. Quote the child's words as they wrote them. No comment, no advice.
+
+```
+👀 From the children
+• {child}, asked for: "{request}"
+• {child}, mood: {mood}
+• {child}, wrote: "{text}"
+```
+
+A topic they did not understand is not a reason to send this. That goes into the weekly report.
+
+## 7. Weekly report (parents' group, Sunday morning)
 
 ```
 Weekly report is ready 📋 {report_link}

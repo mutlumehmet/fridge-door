@@ -20,6 +20,12 @@ One row per day, filled in through a form.
 | Start page, end page | Number | The agent checks that the start page follows last time's end page |
 | Reading minutes | Number | |
 | Stuck on | Text | One question or topic. Goes onto the parents' stuck-on list |
+| Mood | Select, optional | Five options, from 😄 to 😢. One tap, and a low day reaches the parents the same evening |
+| What happened in my book | Text, optional | One sentence. Shows the reading really happened and gives the parents something to ask about |
+| Who I spent time with | Text, optional | Kids like answering it, which keeps them filling in the form |
+| Something I want from my parents | Text, optional | Help, a question, a request. Reaches the parents the same evening |
+
+The four optional fields are not scored. They make the check-in feel less like a test and give the child a direct line to the parents.
 
 Tip: children sometimes tick a subject they studied at home that day, not one they had at school. In reports, say "logged" rather than "taught at school".
 
@@ -35,6 +41,7 @@ Tip: children sometimes tick a subject they studied at home that day, not one th
 | Book, pages, reading minutes | Text, number, number | |
 | Learned today | Text | One sentence |
 | Stuck on | Text | |
+| Mood, what happened in my book, who I spent time with, something I want from my parents | Select and text, optional | The same four optional fields as the older child |
 
 ## 3. Homework and tests
 

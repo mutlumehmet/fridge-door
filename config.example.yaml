@@ -59,6 +59,7 @@ reminders:                        # times in family.timezone
   study_time: { older: "18:00", younger: "16:15", days: weekdays }
   check_in: { time: "20:00", days: everyday }
   missing_check_in: { time: "21:00", to: parents }
+  children_note: { with: missing_check_in, to: parents }   # same evening: requests, low mood, complaints
   weekly_plan: { time: "08:00", day: monday }
   weekly_report: { time: "10:00", day: sunday, to: parents }
   quiz_time: { time: "17:00", day: sunday }
