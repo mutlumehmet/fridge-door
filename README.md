@@ -30,7 +30,7 @@ Fridge Door moves that job to a system. The kids get short, friendly reminders f
 
 ## How it works
 
-![How it works: kids and school feed an AI agent, parents get one Sunday report and a family calendar](docs/images/how-it-works.png)
+![How it works, animated: the agent nudges the kids, takes their check-in and the school mail, keeps what matters, checks it and marks the Sunday quiz, then sends the parents one report and fills the family calendar](docs/images/how-it-works.gif)
 
 1. **Reminders are automatic.** A message at homework time and one at check-in time, sent through the messaging app your family already uses.
 2. **The check-in is short.** Three to five minutes a day from a phone: topics covered, homework done, reading.
