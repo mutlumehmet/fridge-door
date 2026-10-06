@@ -101,7 +101,7 @@ The parents and the children set the reward list together. The report only says 
 |---|---|---|
 | Weekdays, after school | Each child | Today's tasks: today's lessons and upcoming deadlines |
 | Every evening | Each child | Check-in reminder with the form link |
-| Every evening, later | Parents | Who has not filled in the check-in yet, and a short note if a child asked for something, picked a low mood or complained about something |
+| Every evening, later | Parents | Who has not filled in the check-in yet, and a short note if a child asked for something, picked a low mood or complained about something. The same job also adds new homework and notices from the last two days of school email to the records, without sending anything |
 | Monday morning | Each child | The week's plan: targets per day, short days, quiz time |
 | Sunday morning | Parents | Weekly report, quiz sheets, answer keys |
 | Sunday evening | Each child | Quiz time |
@@ -110,7 +110,7 @@ Rules for messages to children: short, positive, never blaming. The system remin
 
 ### 7. School updates and the weekly calendar
 
-Most of what school sends is noise for any one family, and the important bits hide inside it: a form due Friday, a trip that needs a packed lunch, an exam date moved. Each week the agent:
+Most of what school sends is noise for any one family, and the important bits hide inside it: a form due Friday, a trip that needs a packed lunch, an exam date moved. Every evening a short sweep adds new homework, tests and forms to the records, so the Monday plan and the daily reminders see them the same week. Each week the agent:
 
 - Reads that week's school emails and newsletters.
 - Keeps only what concerns your children: dates, exams, trips, events, forms, payments, and any message about your child (awards, absences, incidents).
@@ -159,6 +159,7 @@ Most school systems send their updates by email, so the inbox is the richest inp
 - Some school messaging systems put the full text only in the HTML part of the email, and a placeholder in the plain text part. Read the HTML.
 - Newsletters often arrive as a link or a PDF attachment, not as text in the email.
 - School portals often ship parent accounts with email notifications switched off. At setup, open the notification settings of every parent account and turn on new homework, missed homework, grades and notices. Otherwise the homework never reaches the inbox.
+- Do not leave the inbox for the weekly report alone. Homework set on a Tuesday and due on Thursday is gone before Sunday, and a weekly plan built from the records never sees it. Sweep the inbox every evening and add only what is missing: if a record with the same title exists, skip it. When an email names the task but not the due date, leave the date empty rather than guess.
 
 ### Parent portals
 
@@ -212,5 +213,5 @@ See [`docs/privacy.md`](privacy.md) for the full checklist.
 
 1. **Basics:** check-in forms, database, fixed reminders.
 2. **Report:** the weekly report and the Sunday quiz, run by hand at first.
-3. **Checks:** missing check-in alert, weekly inbox reading, homework platform checks.
+3. **Checks:** missing check-in alert, nightly inbox sweep into the homework records (full read in the weekly report), homework platform checks.
 4. **Tuning:** adjust targets and times after two weeks of data.
